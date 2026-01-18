@@ -1,0 +1,18 @@
+{
+  "Dataset A": {
+    "best_method": "DBSCAN",
+    "silhouette": 0.5216395622404242,
+    "n_clusters": 2
+  },
+  "Dataset B": {
+    "best_method": "Agglomerative",
+    "silhouette": 0.41976775922231674,
+    "n_clusters": 2
+  },
+  "Dataset C": {
+    "best_method": "DBSCAN",
+    "silhouette": 0.812135611234154,
+    "n_clusters": 5,
+    "noise_ratio": 0.9959333333333333
+  }
+}
