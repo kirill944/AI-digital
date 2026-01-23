@@ -1,157 +1,49 @@
 {
-  "experiment_info": {
-    "name": "HW06 Classification Experiment",
-    "dataset": "S06-hw-dataset-02.csv",
-    "task": "Binary Classification"
+  "name": "Gradient_Boosting",
+  "type": "<class 'sklearn.ensemble._gb.GradientBoostingClassifier'>",
+  "model_class": "GradientBoostingClassifier",
+  "parameters": {
+    "ccp_alpha": 0.0,
+    "criterion": "friedman_mse",
+    "init": null,
+    "learning_rate": 0.2,
+    "loss": "log_loss",
+    "max_depth": 7,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 200,
+    "n_iter_no_change": null,
+    "random_state": 42,
+    "subsample": 1.0,
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
   },
-  "best_model": {
-    "name": "Gradient_Boosting",
-    "type": "<class 'sklearn.ensemble._gb.GradientBoostingClassifier'>",
-    "model_class": "GradientBoostingClassifier",
-    "parameters": {
-      "ccp_alpha": 0.0,
-      "criterion": "friedman_mse",
-      "init": null,
-      "learning_rate": 0.2,
-      "loss": "log_loss",
-      "max_depth": 7,
-      "max_features": null,
-      "max_leaf_nodes": null,
-      "min_impurity_decrease": 0.0,
-      "min_samples_leaf": 1,
-      "min_samples_split": 2,
-      "min_weight_fraction_leaf": 0.0,
-      "n_estimators": 200,
-      "n_iter_no_change": null,
-      "random_state": 42,
-      "subsample": 1.0,
-      "tol": 0.0001,
-      "validation_fraction": 0.1,
-      "verbose": 0,
-      "warm_start": false
-    },
-    "test_metrics": {
-      "accuracy": 0.9133333333333333,
-      "f1_score": 0.8207720588235294,
-      "precision": 0.8983903420523138,
-      "recall": 0.7554991539763113,
-      "roc_auc": 0.9307958742193787
-    },
-    "train_info": {
-      "train_samples": 13500,
-      "test_samples": 4500,
-      "features_count": 37,
-      "class_balance": {
-        "train": {
-          "0": 0.737,
-          "1": 0.263
-        },
-        "test": {
-          "0": 0.737,
-          "1": 0.263
-        }
+  "test_metrics": {
+    "accuracy": 0.9133333333333333,
+    "f1_score": 0.8207720588235294,
+    "precision": 0.8983903420523138,
+    "recall": 0.7554991539763113,
+    "roc_auc": 0.9307958742193787
+  },
+  "train_info": {
+    "train_samples": 13500,
+    "test_samples": 4500,
+    "features_count": 37,
+    "class_balance": {
+      "train": {
+        "0": 0.737,
+        "1": 0.263
+      },
+      "test": {
+        "0": 0.737,
+        "1": 0.263
       }
     }
-  },
-  "feature_importance": {
-    "top_10_features": [
-      {
-        "feature": "f16",
-        "importance": 0.15006449554911086
-      },
-      {
-        "feature": "f01",
-        "importance": 0.07349326377537783
-      },
-      {
-        "feature": "f23",
-        "importance": 0.05995793940095304
-      },
-      {
-        "feature": "f15",
-        "importance": 0.05234313721739202
-      },
-      {
-        "feature": "f19",
-        "importance": 0.05231343791333446
-      },
-      {
-        "feature": "f07",
-        "importance": 0.045116913790074036
-      },
-      {
-        "feature": "f12",
-        "importance": 0.03834377292545736
-      },
-      {
-        "feature": "f08",
-        "importance": 0.037064452204119074
-      },
-      {
-        "feature": "f11",
-        "importance": 0.0363088299306856
-      },
-      {
-        "feature": "f29",
-        "importance": 0.035908209254213105
-      }
-    ],
-    "importance_type": "model_builtin"
-  },
-  "permutation_importance": {
-    "top_10_features": [
-      {
-        "feature": "f16",
-        "importance_mean": 0.1991684461923558,
-        "importance_std": 0.008659125932638295
-      },
-      {
-        "feature": "f01",
-        "importance_mean": 0.09099458657387646,
-        "importance_std": 0.005562717293722729
-      },
-      {
-        "feature": "f07",
-        "importance_mean": 0.04918371797581533,
-        "importance_std": 0.002644069641315446
-      },
-      {
-        "feature": "f15",
-        "importance_mean": 0.040249369546119206,
-        "importance_std": 0.0033850212299987325
-      },
-      {
-        "feature": "f30",
-        "importance_mean": 0.039323530103215466,
-        "importance_std": 0.004068843216071206
-      },
-      {
-        "feature": "f08",
-        "importance_mean": 0.03798095132012356,
-        "importance_std": 0.002221556088377983
-      },
-      {
-        "feature": "f13",
-        "importance_mean": 0.03727704848592093,
-        "importance_std": 0.004245502000876364
-      },
-      {
-        "feature": "f23",
-        "importance_mean": 0.03396702729811392,
-        "importance_std": 0.003653645514784261
-      },
-      {
-        "feature": "f12",
-        "importance_mean": 0.03318829830010674,
-        "importance_std": 0.004704817479695084
-      },
-      {
-        "feature": "f29",
-        "importance_mean": 0.031706389374691536,
-        "importance_std": 0.003963611681711647
-      }
-    ],
-    "scoring": "f1",
-    "n_repeats": 10
   }
 }
