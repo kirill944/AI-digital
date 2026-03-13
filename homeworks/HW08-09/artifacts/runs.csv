@@ -1,0 +1,8 @@
+experiment_id,dataset,seed,model_summary,optimizer,lr,momentum,weight_decay,epochs_trained,best_val_accuracy,best_val_loss
+E1,EMNIST,42,"layers=[512, 256, 128], dropout=0.0, batchnorm=False",Adam,0.001,0.0,0.0,15,84.7917,0.5412
+E2,EMNIST,42,"layers=[512, 256, 128], dropout=0.3, batchnorm=False",Adam,0.001,0.0,0.0,15,83.9628,0.467
+E3,EMNIST,42,"layers=[512, 256, 128], dropout=0.0, batchnorm=True",Adam,0.001,0.0,0.0,15,85.8422,0.5
+E4,EMNIST,42,"layers=[512, 256, 128], dropout=0.0, batchnorm=True",Adam,0.001,0.0,0.0,15,85.7181,0.4896
+O1,EMNIST,42,"layers=[512, 256, 128], dropout=0.0, batchnorm=False",Adam,0.1,0.0,0.0,8,2.2429,3.8607
+O2,EMNIST,42,"layers=[512, 256, 128], dropout=0.0, batchnorm=False",Adam,1e-05,0.0,0.0,8,60.5762,1.4391
+O3,EMNIST,42,"layers=[512, 256, 128], dropout=0.0, batchnorm=False",SGD,0.01,0.9,0.0001,15,85.0842,0.4769
