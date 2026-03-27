@@ -1,0 +1,12 @@
+{
+    "dataset": "CIFAR100",
+    "architecture": "C4",
+    "transforms": "resize_transform",
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "num_epochs": 10,
+    "seed": 42,
+    "best_val_accuracy": 72.08,
+    "test_accuracy": 70.37
+}

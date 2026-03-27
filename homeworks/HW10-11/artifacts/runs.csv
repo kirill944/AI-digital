@@ -1,0 +1,7 @@
+experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
+C1,classification,CIFAR100,42,SimpleCNN,Adam,0.001,10,42.61,,,,,Без аугментации
+C2,classification,CIFAR100,42,SimpleCNN,Adam,0.001,10,45.21,,,,,С аугментацией
+C3,classification,CIFAR100,42,ResNet18_head_only,Adam,0.001,10,53.83,,,,,"Backbone заморожен, обучается только голова"
+C4,classification,CIFAR100,42,ResNet18_finetune,Adam,0.001,10,72.08,70.37,,,,Дообучение layer4 + голова
+V1,detection,PascalVOC,42,FasterRCNN_ResNet50_FPN,,,,,,0.0,0.0,0.0,Порог уверенности 0.3
+V2,detection,PascalVOC,42,FasterRCNN_ResNet50_FPN,,,,,,0.03333333333333333,0.06666666666666667,0.19009024828528906,Порог уверенности 0.7
