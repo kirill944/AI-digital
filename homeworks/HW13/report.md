@@ -61,8 +61,10 @@
 
 Ссылки на файлы в репозитории:
 
-- Примеры предсказаний: [sample_predictions.csv](artifacts%2Fsample_predictions.csv)
-- Матрица ошибок: ![confusion_matrix.png](artifacts%2Fconfusion_matrix.png)
+- Примеры предсказаний: `./artifacts/sample_predictions.csv`
+- Матрица ошибок: `./artifacts/confusion_matrix.png`
+[sample_predictions.csv](artifacts%2Fsample_predictions.csv)
+![confusion_matrix.png](artifacts%2Fconfusion_matrix.png)
 
 Короткая сводка (6-10 строк):
 
