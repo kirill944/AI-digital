@@ -1,0 +1,55 @@
+{
+  "retrieval_metrics": {
+    "k": 3,
+    "hit_rate": 1.0,
+    "recall": 1.0,
+    "mrr": 0.8611111111111112,
+    "num_queries": 12
+  },
+  "knowledge_base_stats": {
+    "initial_documents": 10,
+    "added_documents": 3,
+    "total_documents": 13,
+    "total_chunks": 26,
+    "initial_chunks": 23,
+    "new_chunks": 3,
+    "chunk_size": 200,
+    "chunk_overlap": 50,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384
+  },
+  "rag_config": {
+    "top_k": 3,
+    "chunking_strategy": "sliding_window_with_overlap",
+    "similarity_metric": "L2_distance",
+    "answer_generation": "template_based"
+  },
+  "experiment_results": {
+    "k_comparison": [
+      {
+        "k": 1,
+        "hit_rate": 0.75,
+        "recall": 0.75,
+        "mrr": 0.75
+      },
+      {
+        "k": 3,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "mrr": 0.8611111111111112
+      },
+      {
+        "k": 5,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "mrr": 0.8611111111111112
+      },
+      {
+        "k": 10,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "mrr": 0.8611111111111112
+      }
+    ]
+  }
+}
