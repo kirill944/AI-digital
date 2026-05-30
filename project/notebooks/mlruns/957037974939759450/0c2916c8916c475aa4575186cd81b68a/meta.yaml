@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/4_Sem/AI_DPO/project/notebooks/mlruns/957037974939759450/0c2916c8916c475aa4575186cd81b68a/artifacts
+end_time: 1780157822156
+entry_point_name: ''
+experiment_id: '957037974939759450'
+lifecycle_stage: active
+run_id: 0c2916c8916c475aa4575186cd81b68a
+run_name: LogisticRegression
+run_uuid: 0c2916c8916c475aa4575186cd81b68a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780157817707
+status: 3
+tags: []
+user_id: ksolo

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/4_Sem/AI_DPO/project/notebooks/mlruns/957037974939759450/c201416f63fa46ec8a795f8885ecc1f9/artifacts
+end_time: 1780157872492
+entry_point_name: ''
+experiment_id: '957037974939759450'
+lifecycle_stage: active
+run_id: c201416f63fa46ec8a795f8885ecc1f9
+run_name: Final_model
+run_uuid: c201416f63fa46ec8a795f8885ecc1f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780157868562
+status: 3
+tags: []
+user_id: ksolo

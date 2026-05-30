@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/4_Sem/AI_DPO/project/notebooks/mlruns/957037974939759450/70877f5cd5ae4a48824f72ba4ee02901/artifacts
+end_time: 1780157842004
+entry_point_name: ''
+experiment_id: '957037974939759450'
+lifecycle_stage: active
+run_id: 70877f5cd5ae4a48824f72ba4ee02901
+run_name: XGBoost_baseline
+run_uuid: 70877f5cd5ae4a48824f72ba4ee02901
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780157838089
+status: 3
+tags: []
+user_id: ksolo

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/4_Sem/AI_DPO/project/notebooks/mlruns/957037974939759450/8950222ec8874a9abb21126bcff71737/artifacts
+end_time: 1780157838046
+entry_point_name: ''
+experiment_id: '957037974939759450'
+lifecycle_stage: active
+run_id: 8950222ec8874a9abb21126bcff71737
+run_name: RandomForest
+run_uuid: 8950222ec8874a9abb21126bcff71737
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780157833234
+status: 3
+tags: []
+user_id: ksolo
